@@ -3,7 +3,7 @@
         <div class="container-fluid">
 
             <div class="navbar-header">
-                <a href="/discover1/builds/development/index.php">
+                <a href="index.php">
                     <img src="img/logo-text.png" alt="Destination Go Logo"/>
                 </a>
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">

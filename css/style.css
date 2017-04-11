@@ -683,7 +683,7 @@ a:hover {
   }
 }
 #intro {
-  background: #efefef url(../img/background2.jpg) 0% 50%/cover no-repeat;
+  background: #efefef url(../img/1.jpg) 0% 50%/cover no-repeat;
 }
 #intro .intro-logo {
   margin: 0 auto 10px;
@@ -704,36 +704,10 @@ a:hover {
 }
 
 .intro-title {
-  color: #fff;
+  color: #4f4f4f;
   margin: 0 0 2em;
-  text-shadow: 1px 1px rgba(60, 60, 60, 0.2);
-}
-.intro-title h2 {
-  font-size: 4rem;
-}
-.intro-title p {
-  color: #ececec;
-  font-size: 2rem;
 }
 
-@media screen and (min-width: 600px) {
-  .intro-title {
-    margin: 2em 0 4em;
-  }
-  .intro-title h2 {
-    font-size: 5rem;
-  }
-  .intro-title p {
-    font-size: 3rem;
-  }
-
-  .intro-holder {
-    margin: -2em;
-  }
-  .intro-holder .col-md-12 {
-    margin-bottom: 5rem;
-  }
-}
 #title {
   font-family: "Quicksand", helvetica, arial, sans-serif;
   color: #f7f7f7;

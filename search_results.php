@@ -4,12 +4,13 @@ require "includes/nav.php";
 require "includes/dest-info.php";
 require "includes/search-processor.php";
 require "includes/request-qpx.php";
+require "includes/loader.php";
 ?>
 
 <main class="container-fluid">
     <div class="row">
         <div class="col-lg-12" id="dest-pic">
-            <img src="img/cities/<?php echo $picture; ?>-900.jpg" alt="<?php echo $picture; ?>" sizes="100vw" srcset="img/cities/<?php echo $picture; ?>-900.jpg 900w, img/cities/<?php echo $picture; ?>-1400.jpg 1400w, img/cities/<?php echo $picture; ?>-1920.jpg 1920w"/>
+            <img src="img/cities/<?php echo $picture; ?>.jpg" alt="<?php echo $picture; ?>" />
         </div>
     </div>
     <div class="container">

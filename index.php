@@ -12,7 +12,7 @@ require "includes/loader.php";
                 <h2>Travel. Explore.</h2>
                 <p>Your dream destination awaits you.</p>
             </div>
-            <a href="/discover1/builds/development/start.php" class="btn btn-primary get-started">Get Started ></a>
+            <a href="start.php" class="btn btn-primary get-started">Get Started ></a>
         </div>
     </div>
 </main>

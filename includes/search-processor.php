@@ -12,9 +12,20 @@
 //    PDO::ATTR_EMULATE_PREPARES   => false,
 //];
 
-$host = 'yujua.dev.fast.sheridanc.on.ca';
-$dbname   = 'yujua_destinationgo';
-$user = 'yujua_guest';
+// $host = 'yujua.dev.fast.sheridanc.on.ca';
+// $dbname   = 'yujua_destinationgo';
+// $user = 'yujua_guest';
+// $pass = 'X5N6N@xUpYa_';
+// $charset = 'utf8';
+// $dsn = "mysql:host=$host;dbname=$dbname;charset=$charset";
+// $opt = [
+//     PDO::ATTR_ERRMODE            => PDO::ERRMODE_EXCEPTION,
+//     PDO::ATTR_EMULATE_PREPARES   => false,
+// ];
+
+$host = 'localhost';
+$dbname   = 'thenico7_destinationgo';
+$user = 'thenico7_guest';
 $pass = 'X5N6N@xUpYa_';
 $charset = 'utf8';
 $dsn = "mysql:host=$host;dbname=$dbname;charset=$charset";
@@ -110,7 +121,7 @@ $data = $query->fetchAll();
 function dump($el)
 {
     echo "<pre><div style='text-align=left';>";
-    var_dump($el); 
+    var_dump($el);
     echo "</pre></div>";
 }
 
