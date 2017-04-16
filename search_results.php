@@ -37,7 +37,7 @@ require "includes/loader.php";
         </article>
         <div class="row">
             <div class="col-md-8">
-                <a class="btn btn-primary" id="search-again" href="/discover1/builds/development/start.php">Search Again</a>
+                <a class="btn btn-primary" id="search-again" href="start.php">Search Again</a>
             </div>
             <div class="col-md-4"></div>
         </div>
